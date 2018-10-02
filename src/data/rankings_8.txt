@@ -4,6 +4,3 @@ Student3 2 3 4
 Student4 1 2 3
 Student5 2 3 4
 Student6 1 2 3
-Student7 1 2 4
-Student8 2 3 3
-Student9 1 4 2

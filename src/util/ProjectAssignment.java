@@ -44,7 +44,7 @@ public class ProjectAssignment {
 		// import projects from text file
         String line = null;
         try {
-            BufferedReader projectsBR = new BufferedReader(new FileReader(folder_name + "/projects_9.txt"));
+            BufferedReader projectsBR = new BufferedReader(new FileReader(folder_name + "/projects_8.txt"));
 
             while((line = projectsBR.readLine()) != null) {                
                 String[] elements = line.split(" ");
@@ -65,7 +65,7 @@ public class ProjectAssignment {
         
         // import users and rankings from text file
         try {
-            BufferedReader studentsBR = new BufferedReader(new FileReader(folder_name + "/rankings_9.txt"));
+            BufferedReader studentsBR = new BufferedReader(new FileReader(folder_name + "/rankings_8.txt"));
             int idCount = 1;
             while((line = studentsBR.readLine()) != null) {      
                 String[] elements = line.split(" ");

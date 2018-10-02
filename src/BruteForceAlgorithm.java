@@ -100,10 +100,10 @@ public class BruteForceAlgorithm {
 			int lastIndex1 = projects.length-1;
 			int lastIndex2 = projects[lastIndex1].length-1;
 			boolean isLastElement = false;
-			System.out.println("Before increment: index1   " + index1 + "  index2  " + index2  + "  index3  " + index3);
-			System.out.println("Before Increment: lastlasIndex1   " + lastlastElement[0] + "  lastindex2  " + lastlastElement[1]  + "  lastindex3   " + lastlastElement[2]);
+			// System.out.println("Before increment: index1   " + index1 + "  index2  " + index2  + "  index3  " + index3);
+			// System.out.println("Before Increment: lastlasIndex1   " + lastlastElement[0] + "  lastindex2  " + lastlastElement[1]  + "  lastindex3   " + lastlastElement[2]);
 			if (index1 == lastIndex1 && index2 == lastIndex2 ) {
-				System.out.println("This is last element at " + index1 + "  " + index2);
+				// System.out.println("This is last element at " + index1 + "  " + index2);
 				isLastElement = true;
 			}
 			
@@ -144,8 +144,8 @@ public class BruteForceAlgorithm {
 						return;
 					}
 					//print Index after increment
-					System.out.println("After increment: index1  " + index1 + "  index2  " + index2  + "  index3  " + index3);
-					System.out.println("After Increment: lastlasIndex1  " + lastlastElement[0] + "   lastindex2   " + lastlastElement[1]  + "  lastindex3  " + lastlastElement[2]);
+					// System.out.println("After increment: index1  " + index1 + "  index2  " + index2  + "  index3  " + index3);
+					// System.out.println("After Increment: lastlasIndex1  " + lastlastElement[0] + "   lastindex2   " + lastlastElement[1]  + "  lastindex3  " + lastlastElement[2]);
 					
 				}
 				// is not last element
@@ -190,20 +190,20 @@ public class BruteForceAlgorithm {
 					if (tmpNewSolution[1] != -1 && solutionSet[i][1]!=-1) {
 						//System.out.println("Solution set i" + solutionSet[i]);
 						if (Arrays.equals(solutionSet[i], tmpNewSolution)) {
-							System.out.println("**************************SAME SOL********************************");
+						//	System.out.println("**************************SAME SOL********************************");
 							if (index2 < projects[index1].length-1 && (projects[index1][index2+1][0] != -1)) {
 								//skip this combo
 								index2++;
-								System.out.println("**************************INDEX2++*******************************");
-								System.out.println("                     Index1 " + index1 + "  Index2 " + index2 + "  Index3 " + index3);
-								System.out.println("                     Last1 " + lastlastElement[0] + "  LAst2 " + lastlastElement[1] + "  last3 " + lastlastElement[2]);
+								// System.out.println("**************************INDEX2++*******************************");
+								// System.out.println("                     Index1 " + index1 + "  Index2 " + index2 + "  Index3 " + index3);
+								// System.out.println("                     Last1 " + lastlastElement[0] + "  LAst2 " + lastlastElement[1] + "  last3 " + lastlastElement[2]);
 							} else if (index1 < projects.length-1) {
 								index1++;
 								index2=0;
 								index3=0;
-								System.out.println("**************************INDEX1++*******************************");
-								System.out.println("                     Index1 " + index1 + "  Index2 " + index2 + "  Index3 " + index3);
-								System.out.println("                     Last1 " + lastlastElement[0] + "  LAst2 " + lastlastElement[1] + "  last3 " + lastlastElement[2]);	
+								// System.out.println("**************************INDEX1++*******************************");
+								// System.out.println("                     Index1 " + index1 + "  Index2 " + index2 + "  Index3 " + index3);
+								// System.out.println("                     Last1 " + lastlastElement[0] + "  LAst2 " + lastlastElement[1] + "  last3 " + lastlastElement[2]);	
 							} else {
 								System.out.println("**************************NOT SURE WHAT TO DO*******************************");
 								return;
@@ -226,8 +226,8 @@ public class BruteForceAlgorithm {
 				// all projects assigned
 				else {
 					//Does get in here
-					System.out.println("                     Index1 " + index1 + "  Index2 " + index2 + "  Index3 " + index3);
-					System.out.println("                     Last1 " + lastlastElement[0] + "  LAst2 " + lastlastElement[1] + "  last3 " + lastlastElement[2]);
+					// System.out.println("                     Index1 " + index1 + "  Index2 " + index2 + "  Index3 " + index3);
+					// System.out.println("                     Last1 " + lastlastElement[0] + "  LAst2 " + lastlastElement[1] + "  last3 " + lastlastElement[2]);
 				}
 			}
 			backtracking(projects, solutionSet, solutionIndex, newSolution, index1, index2, index3, lastlastElement);
