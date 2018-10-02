@@ -1,0 +1,11 @@
+Quizzly 3 3
+SummerCampReg 3 3
+Sigma 3 3
+P2P4Health 3 3
+SociallyConsciousMachineLearningBots 3 3
+ChangingTheTutoringSphere 3 3
+TrojanMotors 3 3
+AutismSocietyApp 3 3
+AutismSocietyDB 3 3
+PredictingElections 3 3
+Perfit 3 3

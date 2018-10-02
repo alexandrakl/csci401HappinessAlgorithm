@@ -1,0 +1,12 @@
+Student1 3 1 2 7 9
+Student2 3 2 11 4 8
+Student3 8 10 5 3 1
+Student4 6 8 2 5 1
+Student5 8 9 6 1 5
+Student6 5 1 2 7 4
+Student7 4 2 1 11 10
+Student8 4 5 3 11 2
+Student9 9 8 2 7 1
+Student10 1 4 2 3 10
+Student11 2 3 4 6 14
+Student12 8 2 3 9 4

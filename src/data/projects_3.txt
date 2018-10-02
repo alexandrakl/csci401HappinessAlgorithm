@@ -1,0 +1,8 @@
+Quizzly 6 8
+SummerCampReg 4 8
+Sigma 3 4
+P2P4Health 9 12
+SociallyConsciousMachineLearningBots 3 4
+ChangingTheTutoringSphere 3 5
+TrojanMotors 4 6
+AutismSocietyApp 2 3
